@@ -8,6 +8,7 @@ const App = () => {
   const { activeSong } = useSelector((state) => state.player);
 
   return (
+    <br /><br /><br /><br /><br /><br />
     <div className="relative flex">
     <br /><br /><br />
       <Sidebar />
