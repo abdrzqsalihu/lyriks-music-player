@@ -8,7 +8,7 @@ const App = () => {
   const { activeSong } = useSelector((state) => state.player);
 
   return (
-    <div className="relative flex top-0">
+    <div className="reltive flex to-0">
       <Sidebar />
       <div className="flex-1 flex flex-col bg-gradient-to-br from-black to-[#121286]">
         <Searchbar />
@@ -25,7 +25,7 @@ const App = () => {
               <Route path="/search/:searchTerm" element={<Search />} />
             </Routes>
           </div>
-          <div className="xl:sticky relative top-0 h-fit">
+          <div className="xl:sticky relaive to-0 h-fit">
             <TopPlay />
           </div>
         </div>
